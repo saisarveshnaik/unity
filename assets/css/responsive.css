@@ -1,0 +1,42 @@
+ @media (max-width: 650px) {          /*---------------MOBILEs-----------------*/
+
+ }
+
+
+
+
+  @media (max-width: 900px)  /*-----------TABLETS--------------*/
+  and (min-width: 700px){
+   
+  
+
+
+
+  }
+
+
+
+
+
+
+
+  @media (max-width: 1300px)  /*-----------13/10 inch laptop--------------*/
+  and (min-width: 900px){
+   
+  
+
+
+
+  }
+
+
+
+
+
+
+  @media (max-width: 1930px)  /*-----------23/24 inch laptop--------------*/
+  and (min-width: 1820px){
+
+
+
+  }  
