@@ -167,12 +167,88 @@ include_once("template-parts/navbar.php");
 </section>
 
 
+<section id="Possibilities">
+   
+  <img src="assets/images/circle.png" class="bg-1" />
+  <img src="assets/images/circle001.png" class="bg-2" />
+  <img src="assets/images/vector.png" class="bg-3" />
+
+   <div class="cont">
+      <div class="row">
+         <div class="col-md-6 left">
+      <h2>POSSIBILITIES</h2>
+      <h1>How you can be a part of UnityFund?</h1>
+      <p>We’ve worked with over 400 companies to build blockchain solutions for their business, and we are still growing.</p>
+         </div>
+         <div class="col-md-6 right">
+         <div class="row">
+            <div class="col-md-6">
+               <h3 class="links"><a href="#" >Smart contracts</a></h3>
+               <h3 class="links"><a href="#" >Cloud storage</a></h3>
+            </div>
+            <div class="col-md-6">
+               <h3 class="links"><a href="#" >Paying employees</a></h3>
+               <h3 class="links"><a href="#" >Electronic voting</a></h3>
+            </div>
+         </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="cont cont-inner">
+      <div class="row">
+         <div class="col-md-6 text-center">
+            <img src="assets/images/bitcoin-img.png" class="bitcoin-img" />
+         </div>
+         <div class="col-md-6">
+            <h2>FEATURES</h2>
+            <h1>Blockchain spreads Trust everywhere</h1>
+            <p>Our team has created blockchain solutions for over 400 companies, and we are still growing. From less paperwork and fewer disputes, to happier customers and entirely new business methods, a shared record of truth is invaluable.</p>
+         <button class="started-btn">Get Started</button>
+         </div>
+      </div>
+   </div>
+</section>
 
 
 
+<section id="Technology">
+
+  <img src="assets/images/line-shape.png" class="bg-1" />
+  <img src="assets/images/circle001.png" class="bg-2" />
+  <img src="assets/images/circle002.png" class="bg-3" />
+
+  <div class="cont">
+   <div class="row">
+    <div class="col-md-6 left">
+      <h2>TECHNOLOGY</h2>
+      <h1>How does blockchain work for business?</h1>
+      <p>We’ve worked with over 400 companies to build blockchain solutions for their business, and we are still growing.</p>
+      <button class="started-btn">Get Started</button>
+    </div>
+    <div class="col-md-6 right">
+    <a href="https://www.youtube.com/watch?v=rYQgy8QDEBI"><button class="play-btn">PLAY</button></a>
+    </div>
+    </div>
+  </div>
+
+</section>
 
 
-
+<section id="Part">
+   <div class="cont">
+      <div class="row">
+         <div class="col-md-6 left">
+            <h1>Be part of the future</h1>
+            <p>We’ve worked with over 400 companies to build blockchain solutions for their business.</p>
+            <button class="started-btn">Get Started</button>
+         </div>
+         <div class="col-md-6 right">
+            <img src="assets/images/cta.png" class="coin-img" />
+         </div>
+      </div>
+   </div>
+</section>
 
 
    <!---------FOOTER START------>
