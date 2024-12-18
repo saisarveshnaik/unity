@@ -1,5 +1,370 @@
  @media (max-width: 650px) {          /*---------------MOBILEs-----------------*/
 
+ 
+    .navbar{
+        background-color:transparent !important;
+        padding: 10px 20px;
+    }
+
+    #Main{
+        padding-top: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #Main h1{
+        font-size: 60px;
+        margin-top: 10px;
+    }
+
+    #Main .violet-div{
+        margin-top: 15px;
+        width: 300px;
+        border-radius: 10px 10px 10px 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #Main h3{
+        font-size: 22px;
+    }
+
+    #Main .right-div{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+    }
+
+    #Main .right-div .started-btn{
+        margin-top: 10px;
+    }
+
+    #Main .bg-1{
+        width: 300px;
+        height: auto;
+        position: absolute;
+        right: -100px;
+        top: -50px;
+    }
+
+    #Main .bg-2{
+        position: absolute;
+        width: 80px;
+        top: 320px;
+        left: 0px;
+    }
+
+    #Main .bg-3{
+        width: 150px;
+        right: 0px;
+        bottom: -80px;
+    }
+
+    #Clients{
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    #owl1 img{
+        opacity: 1;
+    }
+
+    #Why{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #Why .left{
+        position: relative;
+        padding-right: 15px;
+        z-index: 100;
+    }
+    
+    #Why .right{
+        padding-left: 15px;
+    }
+
+    #Why h1{
+        font-size: 36px;
+        position: relative;
+    }
+
+    #Why p{
+        position: relative;
+        z-index: 100;
+    }
+
+    #Why .div1{
+        margin-top: 30px;
+        height: auto;
+        min-height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+
+    #Why h3{
+        font-size: 35px;
+    }
+
+    #Why .div1 p{
+        margin-top: 20px;
+    }
+
+    #Why .div1 img{
+        position: relative;
+        width: 300px;
+        margin-left: 80px;
+        margin-top: 80px;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    #Why .div2{
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #Why .div2 img{
+        width: 230px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        margin-top: 20px;
+    }
+    
+    #Why .div3{
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #Why .div3 img{
+        width: 230px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        margin-top: 20px;
+    }
+
+    #Features{
+        margin-top: 0px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #Features .img-1{
+        z-index: 10;
+        left: 0px;
+        top: 0px;
+    }
+
+    #Features .img-2{
+        position: relative;
+        z-index: 20;
+        width: 200px;
+       left: 0%;
+       transform: translate(0%,0%);
+       top: 0px;
+       margin-left: 70px;
+    }
+
+    #Features .img-3{
+        position: absolute;
+        z-index: 10;
+        width: 100px;
+        top: 150px;
+        left: 100px;
+    }
+
+    #Features h1{
+        font-size: 36px;
+        max-width: 12ch;
+    }
+
+    #Features h3{
+        font-size: 50px;
+        margin-top: 35px;
+    }
+
+    #Possibilities{
+        padding-top: 0px;
+        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    #Possibilities h1 {
+        font-size: 36px;
+    }
+
+    #Possibilities .bg-2{
+     display: none;
+    }
+
+    #Possibilities .left{
+        padding-right: 15px;
+    }
+
+    #Possibilities .right {
+        padding-left: 15px;
+    }
+
+    #Possibilities .links {
+        font-size: 24px;
+        margin-top: 0px;
+    }
+
+    #Possibilities .cont-inner {
+        border-radius: 15px 15px 15px 15px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 50px;
+    }
+
+    #Possibilities .cont-inner .bitcoin-img{
+        width: 100%;
+    }
+
+    #Possibilities .cont-inner h2{
+        margin-top: 0px;
+    }
+    
+#Possibilities .cont-inner h1{
+    font-size: 36px;
+    margin-top: 15px;
+    max-width: 12ch;
+}
+
+#Technology {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Technology .cont {
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+    z-index: 100;
+}
+
+#Technology h1 {
+    font-size: 36px;
+    width: 12ch;
+    margin-top: 15px;
+}
+
+#Technology .right .play-btn {
+    position: relative;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Part {
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Part .cont {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#Part h1{
+    font-size: 36px;
+    width: 12ch;
+    margin-top: 20px;
+}
+
+
+#Part .coin-img{
+	width: 100%;
+	position: relative;
+	top: 0px;
+	left: 0%;
+	transform: translate(-0%,-0%);
+}
+
+footer{
+	position: relative;
+	padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer .bg {
+    display: none;
+}
+
+footer .middle {
+    border-left: none;
+    border-right: none;
+    margin-top: 50px;
+}
+
+footer .copyrightp {
+    margin-top: 40px;
+}
+
+footer .right {
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer .right .info {
+   text-align: center !important;
+}
+
+#FAQ{
+	padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+
+#FAQ h1 {
+    font-size: 36px;
+}
+
+#FAQ .card{
+	border-radius: 20px;
+}
+
+#FAQ .card h3 button{
+	font-size: 20px;
+}
+
+#FAQ .card-body{
+	padding: 10px 40px 40px 40px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
  }
 
 

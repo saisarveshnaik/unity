@@ -34,7 +34,7 @@ include_once("template-parts/navbar.php");
 <?php echo navbar_(); ?>
    <!-----NAVBAR END---->
 
-
+<button id="scrollToTopBtn">↑</button>
 
 <section id="Main">
 <img src="assets/images/feature-glaxy.png" class="bg-1" />
@@ -151,11 +151,11 @@ include_once("template-parts/navbar.php");
             <p>At UnityFund, we’ve empowered countless users to achieve success through blockchain-powered crowdfunding. From seamless transactions and transparent referrals to financial independence and innovative earning opportunities, our platform creates a shared ecosystem of growth and trust.</p>
              
             <div class="row">
-               <div class="col-md-4">
+               <div class="col-md-4 col-6">
                   <h3>100</h3>
                   <h4>UnityFund Users</h4>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-4 col-6">
                <h3>15%</h3>
                <h4>Minimum ROI</h4>
                </div>
@@ -235,6 +235,76 @@ include_once("template-parts/navbar.php");
 </section>
 
 
+<section id="FAQ">
+<div class="cont text-center">
+   <h2>Frequently Asked Questions</h2>
+   <h1>Popular questions about Blockchain</h1>
+   <p>We’ve worked with over 400 companies to build blockchain solutions for their business, and we are still growing.</p>
+</div>
+<div class="cont cont-2">
+
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h3 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What is blockchain technology? 
+        </button>
+      </h3>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+      It's very simple! Register here. In your personal account, create a wallet where you can store your FOX tokens. Then just send any amount to the displayed address in your office.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h3 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        What is the value of FOX tokens?                            
+        </button>
+      </h3>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+      It's very simple! Register here. In your personal account, create a wallet where you can store your FOX tokens. Then just send any amount to the displayed address in your office.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h3 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          What is Bitcoin?
+        </button>
+      </h3>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+      It's very simple! Register here. In your personal account, create a wallet where you can store your FOX tokens. Then just send any amount to the displayed address in your office.      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h3 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        What is cryptocurrency?                            
+        </button>
+      </h3>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+      It's very simple! Register here. In your personal account, create a wallet where you can store your FOX tokens. Then just send any amount to the displayed address in your office.      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
 <section id="Part">
    <div class="cont">
       <div class="row">
@@ -277,13 +347,13 @@ include_once("template-parts/navbar.php");
    $('#owl1').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    nav:false,
     autoplay:true,
     autoplayTimeout:2000,
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
@@ -295,6 +365,27 @@ include_once("template-parts/navbar.php");
 })
 </script>
 
+
+<script>
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        // Show button when user scrolls down
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = "block";
+            } else {
+                scrollToTopBtn.style.display = "none";
+            }
+        };
+
+        // Scroll to the top when the button is clicked
+        scrollToTopBtn.addEventListener('click', function () {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
 
 
 
